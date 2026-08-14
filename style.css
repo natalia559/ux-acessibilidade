@@ -1,20 +1,39 @@
-body{background-color: rgb(238, 223, 243);
-    font-family: "Nunito Sans" ;
-display: flex;
-flex-direction: column;
-align-items:start;
-font-size: 20px;
-margin: 50 px;}
-
-
-h1{
-    color: blue; text-align: center; font-size: 38px; font-family: "Paytone One";
+body {
+    background-color: rgb(238, 223, 243);
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    margin: 50px; /* Corrigido o espaço entre 50 e px */
+    line-height: 1.6; /* Melhoria de legibilidade do texto */
 }
 
-
-h2{
-    color: rgb(247, 0, 255); text-align:right; font-size: 30px; font-family: "Paytone One";
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 38px;
+    font-family: "Paytone One", sans-serif;
+    width: 100%; /* Permite que o alinhamento ao centro funcione */
+    margin-bottom: 20px;
 }
 
+h2 {
+    color: rgb(247, 0, 255);
+    text-align: right;
+    font-size: 30px;
+    font-family: "Paytone One", sans-serif;
+    width: 100%; /* Permite que o alinhamento à direita funcione */
+    margin-top: 30px;
+}
 
-div{display:list-item}
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
